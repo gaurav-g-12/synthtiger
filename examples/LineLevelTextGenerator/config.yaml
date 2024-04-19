@@ -1,0 +1,58 @@
+count: 100
+
+corpus:
+  paths: [resources/corpus/mjsynth.txt]
+  weights: [1]
+  min_length: 1
+  max_length: 35
+  textcase: [lower, upper, capitalize]
+
+font:
+  paths: [resources/font_]
+  weights: [1]
+  size: [32, 32]
+  bold: 0.7
+
+color:
+  rgb: [[0, 255], [0, 255], [0, 255]]
+  alpha: [1, 1]
+  grayscale: 0
+
+layout:
+  length: [1800, 1800]
+  space: [16, 16]
+  line_space: [0, 0]
+  align: [left]
+  line_align: [middle]
+  ltr: true
+  ttb: true
+  vertical: false
+
+texture:
+  prob: 0.5
+  args:
+    paths: [resources/image]
+    weights: [0.5]
+    alpha: [0, 1]
+    grayscale: 0
+    crop: 1
+
+style:
+  prob: 0.25
+  args:
+    weights: [1, 2, 2]
+    args:
+      # text border
+      - size: [1, 12]
+        alpha: [1, 1]
+        grayscale: 0
+      # text shadow
+      - distance: [1, 6]
+        angle: [0, 360]
+        alpha: [0.3, 0.7]
+        grayscale: 0
+      # text extrusion
+      - length: [1, 12]
+        angle: [0, 360]
+        alpha: [1, 1]
+        grayscale: 0
