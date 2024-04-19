@@ -1,5 +1,5 @@
 
-## SynthTIGER 🐯 : Synthetic Text Image Generator
+## SynthTIGER 🐯 : Synthetic Text Image Generator - At Line Level with Word Level Bounding boxes
 
 
 - This repo contains the template files for generating Line level images with bounding boxes
