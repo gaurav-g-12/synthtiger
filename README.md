@@ -2,7 +2,7 @@
 ## SynthTIGER 🐯 : Synthetic Text Image Generator
 
 
-- This repo contains the template files for generating Line level images
+- This repo contains the template files for generating Line level images with bounding boxes
 - The template can be found in examples/LineLevelTextGenerator directory
 - Use plotter.py to plot the boxes on the generated images
 
